@@ -1,5 +1,17 @@
 # Breast-cancer-detection-using-image-processing-techniques
 In this project, I developed a deep learning model using image processing techniques to accurately detect breast cancer and predict its stage. The workflow included key stages such as image preprocessing, segmentation, feature extraction, classification, and detection.
+1. Image Preprocessing
+  - Enhanced mammogram images by applying grayscale conversion and Gaussian filtering to reduce noise and improve image clarity, making feature extraction more effective.
+2.Segmentation
+  - Applied thresholding and region-based segmentation to isolate regions of interest (ROIs) that could potentially represent cancerous tissues, allowing the model to focus on relevant areas of the mammogram.
+3.Feature Extraction
+  - Used Convolutional Neural Networks (CNN) to automatically extract critical features such as texture, shape, and edge patterns from the segmented regions, differentiating between normal and abnormal tissues.
+4. Classification
+  - Implemented a CNN-based model to classify the extracted features into cancerous and non-cancerous categories.
+5.Detection
+  - The model further predicted the stage of the cancer, ranging from stage 0 (early detection) to stage 4 (advanced cancer), based on the features extracted from the mammogram.
+  - This detection allowed for precise identification of the cancer’s progression, helping clinicians assess the stage and tailor treatment accordingly.
+This model is developed using Deep learning, Machine learning algorithms and Image processing techniques with an accuracy rate of 91%.
 from tkinter import *
 import sqlite3
 import os
