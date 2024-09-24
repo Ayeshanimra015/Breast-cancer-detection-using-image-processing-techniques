@@ -19,4 +19,5 @@ Stage I: Early-stage breast cancer. Cancer is small and confined to the breast t
 Stage II: Locally advanced breast cancer. Cancer may be larger and may involve lymph nodes in the armpit, but hasn’t spread to distant sites.
 Stage III: Locally advanced breast cancer . Cancer is larger and may have spread to multiple lymph nodes or nearby tissues, but hasn’t spread to distant sites.
 Stage IV: Metastatic breast cancer . Cancer has spread beyond the breast and nearby lymph nodes to distant organs like bones, lungs, liver, or brain.
+
 In this study, the mammography images are used for Image processing techniques. The model worked under VGG-16 CNN Deep Learning. Here the Convolutional neural network for the Image propagation and For dataset we used Machine learning classification supervised algorithms such as Decision tree, Random forest, Support vector machine, Logistic regression and in our model Random forest has the highest Efficiency up to 93%. The proposed model has the Accuracy of 91%. The best outcomes were the feature extraction, Mapping of tumor location, classification task, Finding the performance measures and Predicting the breast cancer stages.
